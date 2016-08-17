@@ -22,8 +22,10 @@ def load_files():
                 raise
     return documents
 
-
+# Remove common words (using a stoplist) 
+# as well as words that only appear once in the corpus:
 def tokenize(documents):
+    # remove common words and tokenize
     stoplist = set('for [ ] a of the and to in'.split())
     texts = [[word for word in document.lower().split() if word not in stoplist]
              for document in documents]
@@ -37,14 +39,16 @@ def tokenize(documents):
              for text in texts]
     return texts
 
+# id-word mapping
 def create_dictionary(texts):
     dictionary = corpora.Dictionary(texts)
-    dictionary.save_as_text('dictionary.txt')
+    dictionary.save_as_text('./build/dictionary.txt')
     return dictionary
 
+# Vector Space corpus
 def create_corpus(texts, dictionary):
     corpus = [dictionary.doc2bow(text) for text in texts]
-    corpora.MmCorpus.serialize('corpus.mm', corpus)  # store to disk, for later use
+    corpora.MmCorpus.serialize('./build/corpus.mm', corpus)  # store to disk, for later use
     return corpus
 
 def prepare_corpus():
@@ -53,7 +57,5 @@ def prepare_corpus():
     dictionary = create_dictionary(texts)
     create_corpus(texts, dictionary)
 
-
-prepare_corpus()
 
 
