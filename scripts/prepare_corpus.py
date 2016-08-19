@@ -3,7 +3,8 @@ from gensim import corpora
 from os import listdir
 from os.path import isfile, join
 import glob
-from pprint import pprint  # pretty-printer
+from collections import defaultdict
+from pprint import pprint 
 
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
@@ -30,7 +31,6 @@ def tokenize(documents):
     texts = [[word for word in document.lower().split() if word not in stoplist]
              for document in documents]
     # remove words that appear only once
-    from collections import defaultdict
     frequency = defaultdict(int)
     for text in texts:
         for token in text:
@@ -51,7 +51,7 @@ def create_corpus(texts, dictionary):
     corpora.MmCorpus.serialize('./build/corpus.mm', corpus)  # store to disk, for later use
     return corpus
 
-def prepare_corpus():
+def run():
     documents = load_files()
     texts = tokenize(documents)
     dictionary = create_dictionary(texts)
