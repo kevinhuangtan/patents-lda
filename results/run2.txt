@@ -1,0 +1,611 @@
+PARAMS:
+NUM_TOPICS: 50
+CHUNK_SIZE: 5000
+PASSES: 20
+NUM_DOCUMENTS: 10000
+
+-----------------
+
+
+INFO : topic diff=0.039481, rho=0.213201
+
+INFO : topic #0
+0.014*id + 
+0.012*acid + 
+0.010*peptide + 
+0.010*sequence + 
+0.010*amino + 
+0.010*one + 
+0.009*embodiments, + 
+0.007*no: + 
+0.007*some + 
+0.006*seq
+
+INFO : topic #1
+0.093*roll + 
+0.039*rolls + 
+0.037*pole + 
+0.035*brush + 
+0.010*10 + 
+0.009*axis + 
+0.009*lamina + 
+0.009*bow + 
+0.008*poles + 
+0.008*bristles
+
+INFO : topic #2
+0.007*this + 
+0.006*were + 
+0.006*blood + 
+0.006*may + 
+0.006*invention + 
+0.005*such + 
+0.005*present + 
+0.005*not + 
+0.005*sample + 
+0.004*used
+
+INFO : topic #3
+0.014*this + 
+0.009*will + 
+0.009*system + 
+0.006*these + 
+0.006*two + 
+0.005*velocity + 
+0.005*it + 
+0.005*between + 
+0.005*would + 
+0.005*have
+
+INFO : topic #4
+0.019*element + 
+0.010*measuring + 
+0.008*this + 
+0.008*probe + 
+0.007*elements + 
+0.007*device + 
+0.007*sensor + 
+0.007*invention + 
+0.006*temperature + 
+0.006*it
+
+INFO : topic #5
+0.077*tape + 
+0.041*cassette + 
+0.019*magnetic + 
+0.018*reel + 
+0.011*storage + 
+0.010*video + 
+0.009*case + 
+0.009*device + 
+0.007*subsystem + 
+0.007*portion
+
+INFO : topic #6
+0.064*fuel + 
+0.058*engine + 
+0.041*oil + 
+0.020*injection + 
+0.020*combustion + 
+0.014*intake + 
+0.013*turbine + 
+0.012*exhaust + 
+0.011*ignition + 
+0.008*valve
+
+INFO : topic #7
+0.012*container + 
+0.010*into + 
+0.010*this + 
+0.008*it + 
+0.008*chamber + 
+0.008*liquid + 
+0.008*water + 
+0.007*invention + 
+0.006*through + 
+0.006*may
+
+INFO : topic #8
+0.028*valve + 
+0.021*pressure + 
+0.015*fluid + 
+0.011*control + 
+0.009*second + 
+0.009*first + 
+0.008*through + 
+0.008*flow + 
+0.008*chamber + 
+0.007*pump
+
+INFO : topic #9
+0.025*air + 
+0.017*gas + 
+0.015*flow + 
+0.014*through + 
+0.013*heat + 
+0.010*temperature + 
+0.010*water + 
+0.008*into + 
+0.007*tank + 
+0.007*cooling
+
+INFO : topic #10
+0.010*end + 
+0.009*portion + 
+0.008*member + 
+0.008*fig. + 
+0.007*invention + 
+0.006*may + 
+0.005*surface + 
+0.005*view + 
+0.005*present + 
+0.005*assembly
+
+INFO : topic #11
+0.010*compound + 
+0.010*mixture + 
+0.009*g + 
+0.009*ml + 
+0.009*solution + 
+0.008*reaction + 
+0.007*c. + 
+0.007*acid + 
+0.007*added + 
+0.006*formula
+
+INFO : topic #12
+0.036*layer + 
+0.022*recording + 
+0.017*adhesive + 
+0.010*having + 
+0.008*surface + 
+0.008*sheet + 
+0.007*thickness + 
+0.007*article + 
+0.007*such + 
+0.006*heat
+
+INFO : topic #13
+0.028*crystal + 
+0.024*liquid + 
+0.007*were + 
+0.006*layer + 
+0.006*temperature + 
+0.005*having + 
+0.004*substrate + 
+0.004*display + 
+0.004*present + 
+0.004*phase
+
+INFO : topic #14
+0.187*0 + 
+0.083*1 + 
+0.044*.times. + 
+0.025*3 + 
+0.012*2 + 
+0.011*wiper + 
+0.008*20 + 
+0.008*windshield + 
+0.008*4 + 
+0.007*30
+
+INFO : topic #15
+0.024*control + 
+0.023*step + 
+0.013*speed + 
+0.012*value + 
+0.008*time + 
+0.008*unit + 
+0.008*if + 
+0.008*motor + 
+0.007*operation + 
+0.007*fig.
+
+INFO : topic #16
+0.036*-- + 
+0.008*paint + 
+0.007*plant + 
+0.007*mm + 
+0.005*pot + 
+0.005*color + 
+0.004*new + 
+0.004*green + 
+0.004*under + 
+0.004*has
+
+INFO : topic #17
+0.012*sensor + 
+0.009*pulse + 
+0.008*time + 
+0.007*may + 
+0.007*signal + 
+0.007*system + 
+0.006*one + 
+0.006*such + 
+0.005*data + 
+0.005*this
+
+INFO : topic #18
+0.029*data + 
+0.025*image + 
+0.018*memory + 
+0.015*display + 
+0.010*color + 
+0.009*address + 
+0.007*fig. + 
+0.007*read + 
+0.006*video + 
+0.006*this
+
+INFO : topic #19
+0.011*such + 
+0.008*composition + 
+0.008*weight + 
+0.008*invention + 
+0.008*compositions + 
+0.006*present + 
+0.006*acid + 
+0.005*may + 
+0.005*preferably + 
+0.004*fatty
+
+INFO : topic #20
+0.034*signal + 
+0.012*data + 
+0.011*output + 
+0.010*circuit + 
+0.009*fig. + 
+0.009*signals + 
+0.007*input + 
+0.007*frequency + 
+0.006*time + 
+0.006*this
+
+INFO : topic #21
+0.108*panel + 
+0.036*panels + 
+0.026*side + 
+0.025*wall + 
+0.020*lid + 
+0.017*blank + 
+0.016*flap + 
+0.015*folded + 
+0.014*fold + 
+0.013*edge
+
+INFO : topic #22
+0.034*head + 
+0.020*ink + 
+0.015*recording + 
+0.013*rotor + 
+0.011*disk + 
+0.011*cartridge + 
+0.011*pipe + 
+0.010*portion + 
+0.008*nozzle + 
+0.007*end
+
+INFO : topic #23
+0.023*circuit + 
+0.019*voltage + 
+0.017*output + 
+0.014*signal + 
+0.012*current + 
+0.012*power + 
+0.012*connected + 
+0.010*input + 
+0.008*fig. + 
+0.007*transistor
+
+INFO : topic #24
+0.008*sheet + 
+0.008*fig. + 
+0.007*means + 
+0.006*apparatus + 
+0.006*guide + 
+0.006*roller + 
+0.006*machine + 
+0.005*shown + 
+0.005*side + 
+0.005*one
+
+INFO : topic #25
+0.024*image + 
+0.018*toner + 
+0.017*transfer + 
+0.015*printing + 
+0.013*surface + 
+0.013*drum + 
+0.012*layer + 
+0.010*coating + 
+0.009*roller + 
+0.009*photosensitive
+
+INFO : topic #26
+0.088*film + 
+0.025*lamp + 
+0.020*exposure + 
+0.015*shutter + 
+0.015*camera + 
+0.014*x-ray + 
+0.009*shuttle + 
+0.008*assembly + 
+0.008*position + 
+0.007*frame
+
+INFO : topic #27
+0.019*group, + 
+0.016*group + 
+0.015*silver + 
+0.011*solution + 
+0.009*color + 
+0.008*emulsion + 
+0.008*may + 
+0.008*present + 
+0.008*used + 
+0.007*preferably
+
+INFO : topic #28
+0.012*cells + 
+0.011*were + 
+0.010*cell + 
+0.010*dna + 
+0.008*et + 
+0.007*protein + 
+0.006*sequence + 
+0.006*this + 
+0.005*al., + 
+0.005*gene
+
+INFO : topic #29
+0.041*key + 
+0.024*card + 
+0.014*telephone + 
+0.013*tone + 
+0.013*data + 
+0.012*keyboard + 
+0.010*keys + 
+0.007*step + 
+0.007*set + 
+0.006*mode
+
+INFO : topic #30
+0.011*support + 
+0.010*strap + 
+0.008*foot + 
+0.008*dental + 
+0.007*may + 
+0.007*back + 
+0.006*invention + 
+0.006*loop + 
+0.006*this + 
+0.006*tooth
+
+INFO : topic #31
+0.022*board + 
+0.013*pattern + 
+0.010*bar + 
+0.010*ball + 
+0.009*fig. + 
+0.009*one + 
+0.007*game + 
+0.007*printed + 
+0.006*point + 
+0.006*circuit
+
+INFO : topic #32
+0.039*magnetic + 
+0.013*field + 
+0.012*coil + 
+0.008*present + 
+0.007*electron + 
+0.007*substrate + 
+0.007*fig. + 
+0.006*plasma + 
+0.006*film + 
+0.006*magnet
+
+INFO : topic #33
+0.011*data + 
+0.010*may + 
+0.009*system + 
+0.008*information + 
+0.008*this + 
+0.008*if + 
+0.008*block + 
+0.006*it + 
+0.006*computer + 
+0.006*not
+
+INFO : topic #34
+0.029*tool + 
+0.011*value + 
+0.010*block + 
+0.010*bit + 
+0.009*register + 
+0.009*this + 
+0.009*if + 
+0.008*drill + 
+0.006*may + 
+0.006*drilling
+
+INFO : topic #35
+0.009*weight + 
+0.007*polymer + 
+0.007*c. + 
+0.007*such + 
+0.006*acid + 
+0.006*used + 
+0.005*having + 
+0.005*solution + 
+0.005*were + 
+0.005*preferably
+
+INFO : topic #36
+0.013*fig. + 
+0.011*shaft + 
+0.009*view + 
+0.006*position + 
+0.006*drive + 
+0.006*side + 
+0.006*end + 
+0.006*this + 
+0.006*gear + 
+0.006*cylinder
+
+INFO : topic #37
+0.015*material + 
+0.009*such + 
+0.009*may + 
+0.008*it + 
+0.007*this + 
+0.007*invention + 
+0.006*surface + 
+0.005*not + 
+0.004*used + 
+0.004*other
+
+INFO : topic #38
+0.067*h + 
+0.009*cl + 
+0.008*ch.sub.2 + 
+0.006*were + 
+0.006*me + 
+0.005*compounds + 
+0.004*co.sub.2 + 
+0.004*ch.sub.3 + 
+0.003*5-cl + 
+0.003*active
+
+INFO : topic #39
+0.012*aircraft + 
+0.011*ice + 
+0.011*tire + 
+0.008*this + 
+0.007*wing + 
+0.006*blade + 
+0.006*cord + 
+0.005*tread + 
+0.005*point + 
+0.005*flight
+
+INFO : topic #40
+0.056*filter + 
+0.009*wiring + 
+0.009*pen + 
+0.007*filters + 
+0.007*element + 
+0.005*input + 
+0.005*light + 
+0.005*this + 
+0.005*first + 
+0.005*fig.
+
+INFO : topic #41
+0.033*layer + 
+0.025*film + 
+0.024*electrode + 
+0.016*formed + 
+0.015*semiconductor + 
+0.012*substrate + 
+0.011*silicon + 
+0.010*gate + 
+0.010*fig. + 
+0.010*electrodes
+
+INFO : topic #42
+0.012*fig. + 
+0.010*surface + 
+0.010*contact + 
+0.008*may + 
+0.007*region + 
+0.007*first + 
+0.007*this + 
+0.007*layer + 
+0.006*between + 
+0.006*electrical
+
+INFO : topic #43
+0.016*metal + 
+0.007*material + 
+0.007*temperature + 
+0.007*surface + 
+0.007*particles + 
+0.006*were + 
+0.006*this + 
+0.006*coating + 
+0.005*c. + 
+0.005*powder
+
+INFO : topic #44
+0.021*active + 
+0.018*mg + 
+0.013*dosage + 
+0.011*drug + 
+0.011*pharmaceutical + 
+0.009*form + 
+0.008*administration + 
+0.007*pharmaceutically + 
+0.007*.+-
+. + 
+0.007*invention
+
+INFO : topic #45
+0.017*formula + 
+0.017*such + 
+0.013*carbon + 
+0.011*catheter + 
+0.011*preferably + 
+0.010*having + 
+0.010*1 + 
+0.009*example, + 
+0.009*alkyl + 
+0.009*compounds
+
+INFO : topic #46
+0.032*light + 
+0.024*optical + 
+0.017*beam + 
+0.014*laser + 
+0.012*lens + 
+0.008*this + 
+0.007*fig. + 
+0.006*system + 
+0.005*source + 
+0.005*it
+
+INFO : topic #47
+0.016*reaction + 
+0.016*catalyst + 
+0.012*process + 
+0.009*this + 
+0.008*reactor + 
+0.006*gas + 
+0.006*it + 
+0.005*may + 
+0.005*product + 
+0.005*such
+
+INFO : topic #48
+0.206*-- + 
+0.078*1 + 
+0.046*o + 
+0.045*ch.sub.2 + 
+0.039*0 + 
+0.034*nh + 
+0.009*ch.sub.3 + 
+0.007*5 + 
+0.007*cooh + 
+0.007*hh
+
+INFO : topic #49
+0.012*this + 
+0.009*used + 
+0.009*- + 
+0.007*it + 
+0.006*table + 
+0.005*model + 
+0.005*data + 
+0.004*level + 
+0.004*based + 
+0.004*includes

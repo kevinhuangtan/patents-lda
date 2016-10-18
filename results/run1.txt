@@ -1,0 +1,1313 @@
+PARAMS:
+NUM_TOPICS: 100
+CHUNK_SIZE: 1000
+PASSES: 20
+NUM_DOCUMENTS: 10000
+
+-----------------
+
+INFO : topic diff=0.040250, rho=0.182574
+
+INFO : topic #0 (0.010): 
+0.061*filter + 
+0.038*frequency + 
+0.025*antenna + 
+0.019*idref=&quot;drawings&quot;&gt;fig. + 
+0.017*band + 
+0.014*&lt;figref + 
+0.014*segment + 
+0.013*an + 
+0.012*with + 
+0.010*at
+
+
+INFO : topic #1 (0.010): 
+0.053*display + 
+0.026*screen + 
+0.020*search + 
+0.018*game + 
+0.017*on + 
+0.016*user + 
+0.015*is + 
+0.014*displayed + 
+0.013*player + 
+0.013*primary
+
+
+INFO : topic #2 (0.010): 
+0.101*signal + 
+0.027*signals + 
+0.018*frequency + 
+0.015*is + 
+0.014*an + 
+0.013*receiver + 
+0.012*by + 
+0.011*output + 
+0.011*phase + 
+0.011*idref=&quot;drawings&quot;&gt;fig.
+
+
+INFO : topic #3 (0.010): 
+0.045*sample + 
+0.019*is + 
+0.019*membrane + 
+0.015*with + 
+0.014*solution + 
+0.009*samples + 
+0.008*surface + 
+0.006*reaction + 
+0.006*chemical + 
+0.006*concentration
+
+
+INFO : topic #4 (0.010): 
+0.025*is + 
+0.021*end + 
+0.016*member + 
+0.016*portion + 
+0.015*idref=&quot;drawings&quot;&gt;fig. + 
+0.013*an + 
+0.012*&lt;figref + 
+0.010*outer + 
+0.010*be + 
+0.010*body
+
+
+INFO : topic #5 (0.010): 
+0.217*main + 
+0.084*card + 
+0.036*string + 
+0.029*sub + 
+0.017*can + 
+0.017*reader + 
+0.013*igfet + 
+0.011*plc + 
+0.010*mdb + 
+0.008*&lt;b&gt;500&lt;/b&gt;
+
+
+INFO : topic #6 (0.010): 
+0.062*sensor + 
+0.027*detection + 
+0.022*is + 
+0.021*measurement + 
+0.021*can + 
+0.019*an + 
+0.018*sensing + 
+0.017*system + 
+0.016*measuring + 
+0.014*or
+
+
+INFO : topic #7 (0.010): 
+0.038*material + 
+0.019*is + 
+0.014*as + 
+0.014*an + 
+0.014*electrode + 
+0.010*be + 
+0.010*coating + 
+0.010*surface + 
+0.010*or + 
+0.008*by
+
+
+INFO : topic #8 (0.010): 
+0.067*recording + 
+0.044*area + 
+0.037*is + 
+0.034*medium + 
+0.027*disk + 
+0.018*information + 
+0.016*disc + 
+0.014*recorded + 
+0.012*data + 
+0.012*optical
+
+
+INFO : topic #9 (0.010): 
+0.026*was + 
+0.024*were + 
+0.017*with + 
+0.012*by + 
+0.009*at + 
+0.008*idref=&quot;drawings&quot;&gt;fig. + 
+0.007*from + 
+0.007*as + 
+0.006*after + 
+0.006*on
+
+
+INFO : topic #10 (0.010): 
+0.076*control + 
+0.074*vehicle + 
+0.062*target + 
+0.039*speed + 
+0.024*is + 
+0.015*driver + 
+0.013*at + 
+0.011*master + 
+0.011*x-ray + 
+0.010*when
+
+
+INFO : topic #11 (0.010): 
+0.037*was + 
+0.021*with + 
+0.012*reaction + 
+0.011*by + 
+0.011*at + 
+0.011*acid + 
+0.011*is + 
+0.010*solution + 
+0.009*c. + 
+0.009*mixture
+
+
+INFO : topic #12 (0.010): 
+0.051*± + 
+0.033*risk + 
+0.018*fat + 
+0.017*patients + 
+0.009*assessment + 
+0.008*group + 
+0.007*ms + 
+0.007*clinical + 
+0.006*subjects + 
+0.006*significant
+
+
+INFO : topic #13 (0.010): 
+0.042*sheet + 
+0.035*is + 
+0.023*roller + 
+0.019*toner + 
+0.018*image + 
+0.018*forming + 
+0.016*paper + 
+0.014*on + 
+0.010*by + 
+0.010*surface
+
+
+INFO : topic #14 (0.010): 
+0.169*t + 
+0.152*g + 
+0.034*g, + 
+0.007*fishing + 
+0.006*ptc + 
+0.005*mg/g), + 
+0.005*vsels + 
+0.004*ia + 
+0.004*β + 
+0.004*vsel
+
+
+INFO : topic #15 (0.010): 
+0.090*magnetic + 
+0.069*energy + 
+0.055*carrier + 
+0.049*field + 
+0.037*pulse + 
+0.028*coil + 
+0.023*wave + 
+0.020*ultrasonic + 
+0.016*transducer + 
+0.015*vibration
+
+
+INFO : topic #16 (0.010): 
+0.020*cutting + 
+0.014*load + 
+0.014*transport + 
+0.013*box + 
+0.012*tray + 
+0.011*belt + 
+0.011*piece + 
+0.011*each + 
+0.010*position + 
+0.010*are
+
+
+INFO : topic #17 (0.010): 
+0.024*plant + 
+0.014*or + 
+0.011*plants + 
+0.011*as + 
+0.010*from + 
+0.009*are + 
+0.008*is + 
+0.008*by + 
+0.007*seed + 
+0.006*et
+
+
+INFO : topic #18 (0.010): 
+0.059*column + 
+0.037*mass + 
+0.034*ion + 
+0.014*separation + 
+0.013*ions + 
+0.011*capillary + 
+0.010*exchange + 
+0.008*columns + 
+0.008*extraction + 
+0.008*from
+
+
+INFO : topic #19 (0.010): 
+0.269*node + 
+0.096*nodes + 
+0.020*tree + 
+0.016*thermoplastic-resin + 
+0.016*thermoplastic-resin-reinforced + 
+0.015*troposphere + 
+0.014*node. + 
+0.010*level + 
+0.009*root + 
+0.009*picture-recording
+
+
+INFO : topic #20 (0.010): 
+0.027*or + 
+0.022*nucleic + 
+0.019*sequence + 
+0.017*probe + 
+0.014*id + 
+0.013*is + 
+0.013*nucleotide + 
+0.013*one + 
+0.012*target + 
+0.011*acid
+
+
+INFO : topic #21 (0.010): 
+0.055*ink + 
+0.034*head + 
+0.029*is + 
+0.026*nozzle + 
+0.025*cartridge + 
+0.013*casing + 
+0.010*idref=&quot;drawings&quot;&gt;fig. + 
+0.010*positioning + 
+0.009*printhead + 
+0.009*with
+
+
+INFO : topic #22 (0.010): 
+0.013*are + 
+0.012*that + 
+0.012*expression + 
+0.011*with + 
+0.011*cancer + 
+0.011*is + 
+0.010*idref=&quot;drawings&quot;&gt;fig. + 
+0.010*marker + 
+0.010*as + 
+0.010*or
+
+
+INFO : topic #23 (0.010): 
+0.033*agent + 
+0.021*about + 
+0.015*polymer + 
+0.014*can + 
+0.013*composition + 
+0.011*or + 
+0.011*release + 
+0.010*at + 
+0.009*is + 
+0.009*agents
+
+
+INFO : topic #24 (0.010): 
+0.093*transfer + 
+0.050*print + 
+0.042*printing + 
+0.032*charge + 
+0.028*printer + 
+0.024*printed + 
+0.023*image + 
+0.019*exposure + 
+0.016*transferred + 
+0.014*job
+
+
+INFO : topic #25 (0.010): 
+0.066*line + 
+0.063*memory + 
+0.051*cell + 
+0.024*lines + 
+0.022*bit + 
+0.021*is + 
+0.018*cells + 
+0.015*idref=&quot;drawings&quot;&gt;fig. + 
+0.014*array + 
+0.013*word
+
+
+INFO : topic #26 (0.010): 
+0.071*(1h, + 
+0.050*m), + 
+0.046*(2h, + 
+0.040*hz), + 
+0.037*d, + 
+0.037*s), + 
+0.026*by + 
+0.024*1 + 
+0.022*(3h, + 
+0.021*or
+
+
+INFO : topic #27 (0.010): 
+0.314*mobile + 
+0.065*resource + 
+0.019*cloud + 
+0.014*phone + 
+0.012*location + 
+0.010*macro + 
+0.009*rake + 
+0.008*predetermined + 
+0.008*telecommunications + 
+0.008*field
+
+
+INFO : topic #28 (0.010): 
+0.017*c2-c8 + 
+0.013*preferably + 
+0.011*q′ + 
+0.011*c6-c10 + 
+0.010*+ 
++ 
+0.008*gas&lt;/entry&gt;&lt;entry&gt;oxygen + 
+0.007*hz);mass + 
+0.006*&lt;i&gt;acacia + 
+0.006*h)&lt;/entry&gt;&lt;/row&gt;&lt;row&gt;&lt;entry&gt;&lt;/entry&gt;&lt;/row&gt;&lt;row&gt;&lt;entry&gt;&lt;chemistry + 
+0.005*x′
+
+
+INFO : topic #29 (0.010): 
+0.117*light + 
+0.043*is + 
+0.029*idref=&quot;drawings&quot;&gt;fig. + 
+0.023*display + 
+0.019*emitting + 
+0.018*crystal + 
+0.018*liquid + 
+0.015*view + 
+0.014*source + 
+0.014*led
+
+
+INFO : topic #30 (0.010): 
+0.125*map + 
+0.013*mevalonate + 
+0.012*mobility + 
+0.011*consignee + 
+0.010*mn + 
+0.010*neighbor + 
+0.009*package + 
+0.007*map, + 
+0.007*map. + 
+0.007*maps
+
+
+INFO : topic #31 (0.010): 
+0.055*is + 
+0.030*value + 
+0.019*by + 
+0.017*idref=&quot;drawings&quot;&gt;fig. + 
+0.016*step + 
+0.014*as + 
+0.013*time + 
+0.013*&lt;figref + 
+0.011*that + 
+0.010*an
+
+
+INFO : topic #32 (0.010): 
+0.042*cavity + 
+0.022*surface-emitting + 
+0.014*(&lt;figref + 
+0.007*index + 
+0.006*neutron + 
+0.005*shaped + 
+0.005*low + 
+0.005*pon + 
+0.004*further, + 
+0.004*multiple
+
+
+INFO : topic #33 (0.010): 
+0.083*list-style=&quot;none&quot;&gt;&lt;li + 
+0.042*carbon + 
+0.035*num=&quot;0000&quot;&gt;&lt;ul + 
+0.017*nanotube + 
+0.016*and&lt;/li&gt;&lt;li + 
+0.013*id=&quot;ul0002-0001&quot; + 
+0.013*id=&quot;ul0002&quot; + 
+0.011*id=&quot;ul0002-0002&quot; + 
+0.011*nt + 
+0.011*id=&quot;ul0001&quot;
+
+
+INFO : topic #34 (0.010): 
+0.041*bone + 
+0.019*implant + 
+0.014*body + 
+0.014*living + 
+0.012*tissue + 
+0.012*stent + 
+0.010*vessel + 
+0.008*or + 
+0.008*repair + 
+0.008*graft
+
+
+INFO : topic #35 (0.010): 
+0.057*container + 
+0.026*sealing + 
+0.025*wall + 
+0.022*lid + 
+0.022*seal + 
+0.017*dispensing + 
+0.017*bag + 
+0.014*cup + 
+0.013*opening + 
+0.013*closure
+
+
+INFO : topic #36 (0.010): 
+0.019*transformation + 
+0.013*amino + 
+0.011*gene + 
+0.009*sequences + 
+0.008*sequence + 
+0.008*acid + 
+0.007*are + 
+0.007*dna + 
+0.007*vector + 
+0.007*protein
+
+
+INFO : topic #37 (0.010): 
+0.026*drive + 
+0.022*motor + 
+0.021*shaft + 
+0.017*is + 
+0.017*gear + 
+0.014*rotation + 
+0.013*force + 
+0.011*wheel + 
+0.011*rotational + 
+0.011*torque
+
+
+INFO : topic #38 (0.010): 
+0.042*is + 
+0.021*portion + 
+0.015*be + 
+0.013*part + 
+0.013*idref=&quot;drawings&quot;&gt;fig. + 
+0.012*an + 
+0.012*as + 
+0.011*&lt;figref + 
+0.011*side + 
+0.011*on
+
+
+INFO : topic #39 (0.010): 
+0.117*list-style=&quot;none&quot;&gt;&lt;li + 
+0.042*num=&quot;0000&quot;&gt;&lt;ul + 
+0.017*or&lt;/li&gt;&lt;li + 
+0.014*stratum-1 + 
+0.011*following + 
+0.010*and&lt;/li&gt;&lt;li + 
+0.009*active + 
+0.009*is + 
+0.007*img-format=&quot;tif&quot;/&gt;&lt;/chemistry&gt;&lt;ul + 
+0.005*ctn
+
+
+INFO : topic #40 (0.010): 
+0.165*first + 
+0.145*second + 
+0.024*third + 
+0.022*is + 
+0.020*are + 
+0.012*each + 
+0.011*plurality + 
+0.011*on + 
+0.010*present + 
+0.010*between
+
+
+INFO : topic #41 (0.010): 
+0.027*was + 
+0.021*by + 
+0.020*is + 
+0.018*as + 
+0.013*an + 
+0.010*preferably + 
+0.010*or + 
+0.009*resin + 
+0.009*solution + 
+0.008*at
+
+
+INFO : topic #42 (0.010): 
+0.016*cells + 
+0.016*or + 
+0.015*et + 
+0.013*that + 
+0.012*are + 
+0.012*by + 
+0.012*cell + 
+0.010*can + 
+0.010*with + 
+0.010*is
+
+
+INFO : topic #43 (0.010): 
+0.028*is + 
+0.020*metal + 
+0.014*oxide + 
+0.014*by + 
+0.012*an + 
+0.011*or + 
+0.011*as + 
+0.011*glass + 
+0.009*at + 
+0.009*was
+
+
+INFO : topic #44 (0.010): 
+0.052*data + 
+0.032*is + 
+0.017*memory + 
+0.016*that + 
+0.010*system + 
+0.010*key + 
+0.009*from + 
+0.009*processing + 
+0.009*block + 
+0.008*processor
+
+
+INFO : topic #45 (0.010): 
+0.125*test + 
+0.113*battery + 
+0.029*charging + 
+0.023*testing + 
+0.020*pack + 
+0.019*thread + 
+0.015*power + 
+0.014*batteries + 
+0.013*connection + 
+0.013*charge
+
+
+INFO : topic #46 (0.010): 
+0.033*data + 
+0.032*storage + 
+0.027*file + 
+0.025*is + 
+0.019*management + 
+0.018*document + 
+0.015*table + 
+0.014*page + 
+0.014*an + 
+0.011*as
+
+
+INFO : topic #47 (0.010): 
+0.025*or + 
+0.019*from + 
+0.015*are + 
+0.014*as + 
+0.014*acid + 
+0.012*acid, + 
+0.011*preferably + 
+0.010*such + 
+0.010*composition + 
+0.009*by
+
+
+INFO : topic #48 (0.010): 
+0.099*audio + 
+0.057*noise + 
+0.045*voice + 
+0.040*sound + 
+0.031*weight + 
+0.028*coefficient + 
+0.027*speaker + 
+0.026*tone + 
+0.023*speech + 
+0.017*pitch
+
+
+INFO : topic #49 (0.010): 
+0.022*&lt;b&gt;100&lt;/b&gt; + 
+0.016*&lt;b&gt;110&lt;/b&gt; + 
+0.015*idref=&quot;drawings&quot;&gt;fig. + 
+0.014*&lt;figref + 
+0.013*an + 
+0.012*&lt;b&gt;120&lt;/b&gt; + 
+0.012*includes + 
+0.011*&lt;b&gt;102&lt;/b&gt; + 
+0.011*&lt;b&gt;200&lt;/b&gt; + 
+0.010*is
+
+
+INFO : topic #50 (0.010): 
+0.064*layer + 
+0.028*substrate + 
+0.021*is + 
+0.014*on + 
+0.014*be + 
+0.013*surface + 
+0.013*as + 
+0.013*formed + 
+0.012*an + 
+0.011*layers
+
+
+INFO : topic #51 (0.010): 
+0.044*optical + 
+0.027*is + 
+0.024*light + 
+0.020*lens + 
+0.018*laser + 
+0.017*an + 
+0.017*beam + 
+0.011*by + 
+0.010*surface + 
+0.009*that
+
+
+INFO : topic #52 (0.010): 
+0.047*colsep=&quot;0&quot; + 
+0.046*align=&quot;center&quot;/&gt;&lt;colspec + 
+0.040*align=&quot;left&quot; + 
+0.038*rowsep=&quot;0&quot; + 
+0.037*align=&quot;left&quot;/&gt;&lt;colspec + 
+0.036*align=&quot;center&quot; + 
+0.034*colname=&quot;1&quot; + 
+0.034*namest=&quot;1&quot; + 
+0.025*colname=&quot;2&quot; + 
+0.019*colwidth=&quot;28pt&quot;
+
+
+INFO : topic #53 (0.010): 
+0.019*or + 
+0.019*can + 
+0.014*be + 
+0.013*data + 
+0.013*computer + 
+0.013*system + 
+0.011*that + 
+0.011*an + 
+0.011*as + 
+0.009*application
+
+
+INFO : topic #54 (0.010): 
+0.027*img-format=&quot;tif&quot;/&gt;&lt;/chemistry&gt;&lt;/entry&gt;&lt;entry&gt;h, + 
+0.018*tobacco + 
+0.008*exor + 
+0.008*dpm + 
+0.007*equol + 
+0.006*dihydrodaidzein + 
+0.006*tetrahydrodaidzein + 
+0.005*bopag + 
+0.005*flag + 
+0.005*(a)
+
+
+INFO : topic #55 (0.010): 
+0.029*aircraft + 
+0.021*flight + 
+0.020*system + 
+0.019*emergency + 
+0.019*pilot + 
+0.016*workpiece + 
+0.015*wind + 
+0.008*navigational + 
+0.008*tower + 
+0.008*radar
+
+
+INFO : topic #56 (0.010): 
+0.111*at + 
+0.098*said + 
+0.095*least + 
+0.082*one + 
+0.045*means + 
+0.042*comprises + 
+0.032*comprising + 
+0.025*wherein + 
+0.017*comprise + 
+0.015*further
+
+
+INFO : topic #57 (0.010): 
+0.037*gdfp + 
+0.027*pa + 
+0.013*cymbal + 
+0.010*straight-edge + 
+0.010*rideshare + 
+0.009*lower-part + 
+0.007*from + 
+0.006*negatively-chargeable + 
+0.006*gdfp, + 
+0.005*&lt;b&gt;2&lt;/b&gt;
+
+
+INFO : topic #58 (0.010): 
+0.037*or + 
+0.015*as + 
+0.014*is + 
+0.010*are + 
+0.010*such + 
+0.008*invention + 
+0.008*an + 
+0.007*about + 
+0.007*pharmaceutical + 
+0.007*with
+
+
+INFO : topic #59 (0.010): 
+0.329*element + 
+0.123*elements + 
+0.040*can + 
+0.022*element, + 
+0.018*reflective + 
+0.014*first + 
+0.013*element. + 
+0.012*elements, + 
+0.012*s-d + 
+0.010*arrangement
+
+
+INFO : topic #60 (0.010): 
+0.015*patient + 
+0.014*is + 
+0.014*delivery + 
+0.013*medical + 
+0.011*tissue + 
+0.010*device + 
+0.010*or + 
+0.010*idref=&quot;drawings&quot;&gt;fig. + 
+0.010*as + 
+0.009*be
+
+
+INFO : topic #61 (0.010): 
+0.070*or + 
+0.038*substituted + 
+0.024*is + 
+0.022*unsubstituted + 
+0.015*formula + 
+0.015*&lt;/sup&gt;is + 
+0.012*compounds + 
+0.012*are + 
+0.010*selected + 
+0.010*optionally
+
+
+INFO : topic #62 (0.010): 
+0.044*site + 
+0.040*binding + 
+0.028*sites + 
+0.017*targeting + 
+0.013*gene + 
+0.011*zalpha11 + 
+0.009*host + 
+0.007*dp178 + 
+0.007*bog + 
+0.006*sequence
+
+
+INFO : topic #63 (0.010): 
+0.052*frame + 
+0.038*block + 
+0.036*video + 
+0.030*picture + 
+0.022*is + 
+0.020*reference + 
+0.017*motion + 
+0.012*prediction + 
+0.012*frames + 
+0.012*number
+
+
+INFO : topic #64 (0.010): 
+0.096*may + 
+0.070*be + 
+0.063*or + 
+0.029*one + 
+0.019*as + 
+0.018*more + 
+0.016*such + 
+0.016*example, + 
+0.016*and/or + 
+0.015*that
+
+
+INFO : topic #65 (0.010): 
+0.101*image + 
+0.023*an + 
+0.022*object + 
+0.018*images + 
+0.015*camera + 
+0.014*is + 
+0.013*on + 
+0.012*be + 
+0.011*by + 
+0.011*position
+
+
+INFO : topic #66 (0.010): 
+0.045*standard + 
+0.042*dummy + 
+0.031*&lt;/i&gt;and + 
+0.022*mos + 
+0.017*drift + 
+0.015*other + 
+0.012*embodiment, + 
+0.012*&lt;b&gt;12&lt;/b&gt;&lt;i&gt;a + 
+0.011*&lt;b&gt;10&lt;/b&gt;&lt;i&gt;a + 
+0.010*this
+
+
+INFO : topic #67 (0.010): 
+0.016*are + 
+0.015*is + 
+0.013*that + 
+0.011*data + 
+0.011*each + 
+0.009*model + 
+0.009*as + 
+0.008*be + 
+0.008*can + 
+0.007*using
+
+
+INFO : topic #68 (0.010): 
+0.099*core + 
+0.057*port + 
+0.027*branch + 
+0.018*ports + 
+0.014*each + 
+0.013*queue + 
+0.013*cores + 
+0.012*hybrid + 
+0.010*pipeline + 
+0.008*ship
+
+
+INFO : topic #69 (0.010): 
+0.037*order + 
+0.034*account + 
+0.025*payment + 
+0.021*price + 
+0.020*credit + 
+0.018*at + 
+0.014*financial + 
+0.014*value + 
+0.013*market + 
+0.012*step
+
+
+INFO : topic #70 (0.010): 
+0.027*tail + 
+0.013*s(o)r&lt;sup&gt;b&lt;/sup&gt;, + 
+0.013*sr&lt;sup&gt;b&lt;/sup&gt;, + 
+0.013*or&lt;sup&gt;b&lt;/sup&gt;, + 
+0.013*nr&lt;sup&gt;a&lt;/sup&gt;r&lt;sup&gt;a&lt;/sup&gt;, + 
+0.012*so&lt;sub&gt;2&lt;/sub&gt;r&lt;sup&gt;b&lt;/sup&gt;, + 
+0.012*c(o)r&lt;sup&gt;b&lt;/sup&gt;, + 
+0.012*overdraft + 
+0.011*oc(o)r&lt;sup&gt;b&lt;/sup&gt;, + 
+0.011*lancet
+
+
+INFO : topic #71 (0.010): 
+0.039*may + 
+0.039*training + 
+0.032*be + 
+0.021*exercise + 
+0.014*step + 
+0.013*tie1 + 
+0.013*an + 
+0.012*inc + 
+0.009*annotation + 
+0.009*
+(dna):&lt;/entry&gt;&lt;/row&gt;&lt;/tbody&gt;&lt;/tgroup&gt;&lt;tgroup
+
+
+INFO : topic #72 (0.010): 
+0.028*data + 
+0.020*is + 
+0.020*packet + 
+0.013*stream + 
+0.012*code + 
+0.012*each + 
+0.010*link + 
+0.009*are + 
+0.008*packets + 
+0.008*tag
+
+
+INFO : topic #73 (0.010): 
+0.039*about + 
+0.018*from + 
+0.013*at + 
+0.012*is + 
+0.009*or + 
+0.008*than + 
+0.007*process + 
+0.007*as + 
+0.007*are + 
+0.006*with
+
+
+INFO : topic #74 (0.010): 
+0.032*semiconductor + 
+0.031*is + 
+0.031*electrode + 
+0.026*film + 
+0.025*region + 
+0.024*gate + 
+0.016*formed + 
+0.015*device + 
+0.013*idref=&quot;drawings&quot;&gt;fig. + 
+0.013*an
+
+
+INFO : topic #75 (0.010): 
+0.056*input + 
+0.054*output + 
+0.040*circuit + 
+0.025*clock + 
+0.025*is + 
+0.023*signal + 
+0.023*logic + 
+0.014*control + 
+0.012*an + 
+0.010*idref=&quot;drawings&quot;&gt;fig.
+
+
+INFO : topic #76 (0.010): 
+0.015*idref=&quot;drawings&quot;&gt;fig. + 
+0.014*or + 
+0.013*is + 
+0.011*surface + 
+0.011*are + 
+0.010*top + 
+0.009*side + 
+0.009*&lt;figref + 
+0.009*an + 
+0.008*as
+
+
+INFO : topic #77 (0.010): 
+0.067*unit + 
+0.044*is + 
+0.030*information + 
+0.023*apparatus + 
+0.019*processing + 
+0.017*an + 
+0.016*by + 
+0.015*data + 
+0.013*control + 
+0.012*from
+
+
+INFO : topic #78 (0.010): 
+0.041*heat + 
+0.039*temperature + 
+0.028*fuel + 
+0.023*is + 
+0.019*air + 
+0.017*engine + 
+0.014*cooling + 
+0.013*heating + 
+0.013*gas + 
+0.012*an
+
+
+INFO : topic #79 (0.010): 
+0.068*section + 
+0.047*pixel + 
+0.034*is + 
+0.026*data + 
+0.016*image + 
+0.014*signal + 
+0.013*color + 
+0.011*as + 
+0.011*pixels + 
+0.010*display
+
+
+INFO : topic #80 (0.010): 
+0.156*mode + 
+0.034*mode, + 
+0.030*cellular + 
+0.029*portion + 
+0.028*button + 
+0.022*operation + 
+0.022*phone + 
+0.020*can + 
+0.019*mode. + 
+0.016*display
+
+
+INFO : topic #81 (0.010): 
+0.027*is + 
+0.014*support + 
+0.013*assembly + 
+0.011*member + 
+0.011*front + 
+0.010*position + 
+0.010*idref=&quot;drawings&quot;&gt;fig. + 
+0.010*side + 
+0.009*with + 
+0.009*end
+
+
+INFO : topic #82 (0.010): 
+0.035*group + 
+0.027*an + 
+0.023*or + 
+0.020*group, + 
+0.014*is + 
+0.012*as + 
+0.012*groups + 
+0.011*having + 
+0.011*by + 
+0.011*be
+
+
+INFO : topic #83 (0.010): 
+0.052*is + 
+0.025*be + 
+0.021*this + 
+0.021*that + 
+0.021*which + 
+0.021*with + 
+0.019*are + 
+0.016*as + 
+0.016*by + 
+0.016*it
+
+
+INFO : topic #84 (0.010): 
+0.086*stress + 
+0.020*rock + 
+0.014*shear + 
+0.010*spallation + 
+0.008*(allele, + 
+0.008*count): 
++ 
+0.008*genomic: + 
+0.008*irna + 
+0.007*dbsnp; + 
+0.007*geological
+
+
+INFO : topic #85 (0.010): 
+0.048*(m, + 
+0.043*1h), + 
+0.036*(s, + 
+0.030*hz, + 
+0.026*(d, + 
+0.024*2h), + 
+0.014*compound + 
+0.013*3h), + 
+0.013*as + 
+0.012*δ
+
+
+INFO : topic #86 (0.010): 
+0.022*or + 
+0.014*id + 
+0.014*acid + 
+0.013*amino + 
+0.011*sequence + 
+0.011*is + 
+0.011*an + 
+0.010*as + 
+0.010*at + 
+0.010*by
+
+
+INFO : topic #87 (0.010): 
+0.240*contact + 
+0.110*connector + 
+0.065*conductor + 
+0.059*cable + 
+0.050*plug + 
+0.041*contacts + 
+0.025*socket + 
+0.017*receptacle + 
+0.017*ground + 
+0.010*portions
+
+
+INFO : topic #88 (0.010): 
+0.050*groups, + 
+0.016*method + 
+0.012*unsubstituted + 
+0.010*tooltip + 
+0.008*avatar + 
+0.006*he=&quot;54.78mm&quot; + 
+0.005*chem. + 
+0.005*subject + 
+0.005*structure + 
+0.005*j.
+
+
+INFO : topic #89 (0.010): 
+0.017*tumor + 
+0.017*cell + 
+0.016*cells + 
+0.016*antibody + 
+0.015*with + 
+0.014*cancer + 
+0.010*cancer, + 
+0.010*activation + 
+0.009*human + 
+0.008*as
+
+
+INFO : topic #90 (0.010): 
+0.033*fluid + 
+0.031*pressure + 
+0.029*flow + 
+0.027*gas + 
+0.026*is + 
+0.025*valve + 
+0.024*chamber + 
+0.021*air + 
+0.015*water + 
+0.015*from
+
+
+INFO : topic #91 (0.010): 
+0.026*is + 
+0.020*idref=&quot;drawings&quot;&gt;fig. + 
+0.019*&lt;b&gt;10&lt;/b&gt; + 
+0.018*&lt;figref + 
+0.015*&lt;b&gt;20&lt;/b&gt; + 
+0.014*&lt;b&gt;12&lt;/b&gt; + 
+0.013*&lt;b&gt;30&lt;/b&gt; + 
+0.011*with + 
+0.011*&lt;b&gt;14&lt;/b&gt; + 
+0.010*from
+
+
+INFO : topic #92 (0.010): 
+0.081*img-content=&quot;table&quot; + 
+0.066*image&quot; + 
+0.066*alt=&quot;embedded + 
+0.011*or + 
+0.009*img-format=&quot;tif&quot;/&gt;&lt;/chemistry&gt;&lt;/entry&gt;&lt;entry&gt;&lt;chemistry + 
+0.007*compound + 
+0.007*img-content=&quot;chem&quot; + 
+0.005*namest=&quot;1&quot; + 
+0.004*align=&quot;center&quot; + 
+0.004*substituted
+
+
+INFO : topic #93 (0.010): 
+0.032*channel + 
+0.028*station + 
+0.024*transmission + 
+0.024*base + 
+0.023*is + 
+0.019*communication + 
+0.019*radio + 
+0.017*wireless + 
+0.011*information + 
+0.010*that
+
+
+INFO : topic #94 (0.010): 
+0.056*device + 
+0.025*idref=&quot;drawings&quot;&gt;fig. + 
+0.021*an + 
+0.019*may + 
+0.015*with + 
+0.015*&lt;figref + 
+0.015*be + 
+0.012*as + 
+0.011*devices + 
+0.010*or
+
+
+INFO : topic #95 (0.010): 
+0.090*. + 
+0.053*width=&quot;0.3em&quot; + 
+0.033*&lt;/sub&gt;and + 
+0.028*&lt;/sub&gt;is + 
+0.025*width=&quot;0.8em&quot; + 
+0.020*matrix + 
+0.018*equation + 
+0.016*&lt;/sub&gt;of + 
+0.015*img-content=&quot;character&quot; + 
+0.013*,
+
+
+INFO : topic #96 (0.010): 
+0.023*is + 
+0.017*or + 
+0.015*that + 
+0.015*be + 
+0.015*user + 
+0.012*with + 
+0.012*by + 
+0.012*as + 
+0.011*system + 
+0.011*an
+
+
+INFO : topic #97 (0.010): 
+0.046*power + 
+0.041*voltage + 
+0.033*circuit + 
+0.032*is + 
+0.026*current + 
+0.014*switch + 
+0.013*output + 
+0.013*an + 
+0.013*supply + 
+0.012*connected
+
+
+INFO : topic #98 (0.010): 
+0.033*network + 
+0.028*service + 
+0.023*server + 
+0.022*is + 
+0.021*message + 
+0.016*communication + 
+0.016*request + 
+0.013*an + 
+0.012*access + 
+0.009*ip
+
+
+INFO : topic #99 (0.010): 
+0.056*was + 
+0.022*with + 
+0.022*mixture + 
+0.015*ml) + 
+0.014*mg, + 
+0.013*stirred + 
+0.013*mmol) + 
+0.012*at + 
+0.011*ethyl + 
+0.011*
+residue
+0.0502679347992

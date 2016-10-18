@@ -1,0 +1,609 @@
+PARAMS:
+NUM_TOPICS: 50
+CHUNK_SIZE: 10000
+PASSES: 5
+NUM_DOCUMENTS: 50000
+
+-----------------
+
+topic diff=0.120368, rho=0.316228
+
+topic #0 (0.020): 
+0.014*temperature +
+0.010*phase +
+0.010*metal +
+0.009*particles +
+0.009*c +
+0.008*material +
+0.008*powder +
+0.007*liquid +
+0.007*ceramic +
+0.007*invention
+
+topic #1 (0.020): 
+0.008*system +
+0.006*all +
+0.006*one +
+0.006*process +
+0.005*number +
+0.005*have +
+0.005*used +
+0.005*will +
+0.004*then +
+0.004*has
+
+topic #2 (0.020): 
+0.022*portion +
+0.015*plate +
+0.014*member +
+0.012*1 +
+0.010*formed +
+0.010*body +
+0.010*2 +
+0.009*3 +
+0.009*embodiment +
+0.008*end
+
+topic #3 (0.020): 
+0.016*catalyst +
+0.007*membrane +
+0.007*process +
+0.006*reaction +
+0.005*invention +
+0.005*preferably +
+0.005*weight +
+0.005*percent +
+0.005*no +
+0.005*metal
+
+topic #4 (0.020): 
+0.033*roller +
+0.027*drum +
+0.023*belt +
+0.018*toner +
+0.014*charge +
+0.013*developing +
+0.011*rollers +
+0.010*photosensitive +
+0.010*surface +
+0.009*member
+
+topic #5 (0.020): 
+0.026*vacuum +
+0.025*gas +
+0.023*wafer +
+0.023*chamber +
+0.011*process +
+0.010*plasma +
+0.010*example +
+0.008*10 +
+0.007*.fwdarw +
+0.007*shown
+
+topic #6 (0.020): 
+0.025*display +
+0.021*key +
+0.009*system +
+0.008*computer +
+0.008*screen +
+0.007*user +
+0.007*will +
+0.007*information +
+0.006*displayed +
+0.006*document
+
+topic #7 (0.020): 
+0.023*position +
+0.013*motor +
+0.012*drive +
+0.010*disk +
+0.010*tape +
+0.010*head +
+0.009*apparatus +
+0.008*means +
+0.007*mechanism +
+0.007*direction
+
+topic #8 (0.020): 
+0.047*view +
+0.045*front +
+0.043*vehicle +
+0.039*rear +
+0.039*wheel +
+0.036*side +
+0.017*right +
+0.017*left +
+0.016*elevational +
+0.015*top
+
+topic #9 (0.020): 
+0.029*region +
+0.024*gate +
+0.013*transistor +
+0.012*semiconductor +
+0.012*regions +
+0.008*device +
+0.008*drain +
+0.008*formed +
+0.008*source +
+0.007*cell
+
+topic #10 (0.020): 
+0.039*h +
+0.012*o +
+0.012*ml +
+0.011*g +
+0.010*n +
+0.010*formula +
+0.009*compound +
+0.009*ch.sub.2 +
+0.008*compounds +
+0.008*5
+
+topic #11 (0.020): 
+0.022*cable +
+0.019*telephone +
+0.016*system +
+0.016*call +
+0.011*power +
+0.010*antenna +
+0.009*unit +
+0.008*line +
+0.007*voice +
+0.007*terminal
+
+topic #12 (0.020): 
+0.025*magnetic +
+0.017*beam +
+0.011*direction +
+0.009*light +
+0.008*axis +
+0.008*field +
+0.008*surface +
+0.007*optical +
+0.007*angle +
+0.007*shown
+
+topic #13 (0.020): 
+0.074*layer +
+0.037*film +
+0.026*substrate +
+0.014*surface +
+0.014*formed +
+0.013*layers +
+0.010*thickness +
+0.009*silicon +
+0.008*semiconductor +
+0.008*material
+
+topic #14 (0.020): 
+0.042*wire +
+0.010*product +
+0.008*lead +
+0.008*wires +
+0.007*food +
+0.007*dough +
+0.007*water +
+0.007*moisture +
+0.006*invention +
+0.006*weight
+
+topic #15 (0.020): 
+0.061*lens +
+0.043*liquid +
+0.030*crystal +
+0.020*display +
+0.008*element +
+0.007*lenses +
+0.007*unit +
+0.006*second +
+0.006*system +
+0.006*first
+
+topic #16 (0.020): 
+0.056*signal +
+0.024*output +
+0.020*circuit +
+0.015*input +
+0.013*signals +
+0.012*frequency +
+0.007*phase +
+0.007*pulse +
+0.007*time +
+0.007*level
+
+topic #17 (0.020): 
+0.029*control +
+0.025*step +
+0.016*value +
+0.013*time +
+0.013*speed +
+0.010*engine +
+0.009*set +
+0.008*operation +
+0.007*sensor +
+0.006*predetermined
+
+topic #18 (0.020): 
+0.011*needle +
+0.011*coating +
+0.010*blood +
+0.010*catheter +
+0.010*tissue +
+0.008*distal +
+0.008*invention +
+0.008*bone +
+0.007*paint +
+0.006*skin
+
+topic #19 (0.020): 
+0.025*-- +
+0.020*weight +
+0.012*table +
+0.010*parts +
+0.008*% +
+0.008*composition +
+0.007*1 +
+0.007*copolymer +
+0.007*having +
+0.006*5
+
+topic #20 (0.020): 
+0.019*electrode +
+0.017*circuit +
+0.015*cell +
+0.015*electrical +
+0.014*board +
+0.013*conductive +
+0.011*electrodes +
+0.011*contact +
+0.009*chip +
+0.008*conductor
+
+topic #21 (0.020): 
+0.026*gas +
+0.012*fuel +
+0.009*through +
+0.009*into +
+0.009*chamber +
+0.008*combustion +
+0.007*air +
+0.007*invention +
+0.007*flow +
+0.006*pressure
+
+topic #22 (0.020): 
+0.050*camera +
+0.022*shutter +
+0.022*flash +
+0.021*exposure +
+0.020*light +
+0.016*focus +
+0.010*photographing +
+0.009*lens +
+0.008*aperture +
+0.008*af
+
+topic #23 (0.020): 
+0.015*valve +
+0.015*shaft +
+0.013*pressure +
+0.009*piston +
+0.009*cylinder +
+0.008*gear +
+0.008*spring +
+0.007*position +
+0.007*end +
+0.006*between
+
+topic #24 (0.020): 
+0.011*cells +
+0.006*cell +
+0.006*et +
+0.005*dna +
+0.005*protein +
+0.005*antibody +
+0.004*activity +
+0.004*medium +
+0.004*culture +
+0.004*mm
+
+topic #25 (0.020): 
+0.031*voltage +
+0.022*circuit +
+0.020*current +
+0.015*power +
+0.015*connected +
+0.012*output +
+0.010*transistor +
+0.010*switch +
+0.009*terminal +
+0.008*input
+
+topic #26 (0.020): 
+0.230*0 +
+0.098*1 +
+0.020*x +
+0.013*cement +
+0.012*sludge +
+0.010*3 +
+0.009*2 +
+0.009*5 +
+0.009*liquor +
+0.009*9
+
+topic #27 (0.020): 
+0.021*pigment +
+0.012*grease +
+0.010*percent +
+0.008*diagonal +
+0.008*additive +
+0.006*color +
+0.006*pigments +
+0.006*parts +
+0.005*fringe +
+0.005*herein
+
+topic #28 (0.020): 
+0.009*invention +
+0.009*solution +
+0.008*group +
+0.007*used +
+0.007*acid +
+0.006*present +
+0.006*no +
+0.005*silver +
+0.005*agent +
+0.005*water
+
+topic #29 (0.020): 
+0.011*metal +
+0.008*invention +
+0.008*temperature +
+0.007*coating +
+0.007*alloy +
+0.007*oxide +
+0.006*surface +
+0.006*c +
+0.006*aluminum +
+0.005*present
+
+topic #30 (0.020): 
+0.039*data +
+0.019*memory +
+0.013*address +
+0.010*bus +
+0.009*control +
+0.008*register +
+0.007*bit +
+0.006*block +
+0.006*system +
+0.006*line
+
+topic #31 (0.020): 
+0.015*heat +
+0.011*temperature +
+0.009*mold +
+0.008*heating +
+0.008*material +
+0.008*invention +
+0.007*surface +
+0.006*cooling +
+0.006*between +
+0.006*metal
+
+topic #32 (0.020): 
+0.027*air +
+0.024*water +
+0.019*flow +
+0.017*valve +
+0.014*through +
+0.014*fluid +
+0.011*system +
+0.011*pump +
+0.011*pressure +
+0.010*tank
+
+topic #33 (0.020): 
+0.012*material +
+0.011*resin +
+0.009*invention +
+0.009*polymer +
+0.008*fibers +
+0.007*adhesive +
+0.007*used +
+0.006*weight +
+0.006*fiber +
+0.006*coating
+
+topic #34 (0.020): 
+0.055*image +
+0.035*sheet +
+0.022*color +
+0.017*paper +
+0.016*printing +
+0.015*recording +
+0.011*ink +
+0.009*light +
+0.009*sheets +
+0.007*print
+
+topic #35 (0.020): 
+0.010*welding +
+0.008*invention +
+0.007*material +
+0.007*package +
+0.007*plant +
+0.006*soil +
+0.005*flap +
+0.005*food +
+0.005*cooking +
+0.004*present
+
+topic #36 (0.020): 
+0.104*tube +
+0.021*lamp +
+0.020*tubes +
+0.015*discharge +
+0.011*cathode +
+0.010*end +
+0.008*gun +
+0.007*electron +
+0.007*gas +
+0.007*anode
+
+topic #37 (0.020): 
+0.013*means +
+0.011*unit +
+0.011*two +
+0.010*said +
+0.009*one +
+0.009*device +
+0.009*2 +
+0.008*1 +
+0.007*3 +
+0.007*part
+
+topic #38 (0.020): 
+0.016*data +
+0.011* +
+0.010*value +
+0.007*bit +
+0.007*first +
+0.007*number +
+0.006*values +
+0.006*bits +
+0.006*one +
+0.005*frame
+
+topic #39 (0.020): 
+0.019*invention +
+0.010*device +
+0.010*present +
+0.007*will +
+0.006*provide +
+0.006*use +
+0.005*10 +
+0.005*12 +
+0.005*other +
+0.004*one
+
+topic #40 (0.020): 
+0.034*roll +
+0.024*fabric +
+0.022*web +
+0.016*yarn +
+0.014*winding +
+0.012*rolls +
+0.011*strip +
+0.011*thread +
+0.009*tension +
+0.009*machine
+
+topic #41 (0.020): 
+0.007*fatty +
+0.006*0.0 +
+0.005*c +
+0.003*invention +
+0.003*nm +
+0.003*smf +
+0.003*e.sup.1.sub.1 +
+0.003*also +
+0.003*oil +
+0.002*f
+
+topic #42 (0.020): 
+0.046*container +
+0.025*bag +
+0.021*product +
+0.011*bottle +
+0.010*containers +
+0.009*invention +
+0.009*products +
+0.006*microwave +
+0.006*will +
+0.006*dispensing
+
+topic #43 (0.020): 
+0.011*end +
+0.010*portion +
+0.009*member +
+0.008*wall +
+0.006*surface +
+0.006*invention +
+0.005*side +
+0.005*has +
+0.005*shown +
+0.005*into
+
+topic #44 (0.020): 
+0.012*sensor +
+0.010*sample +
+0.009*test +
+0.009*measuring +
+0.008*measurement +
+0.007*transducer +
+0.007*probe +
+0.006*measured +
+0.006*time +
+0.006*invention
+
+topic #45 (0.020): 
+0.012*channel +
+0.011*transmission +
+0.010*network +
+0.010*module +
+0.009*signal +
+0.009*receiver +
+0.008*switch +
+0.008*card +
+0.008*packet +
+0.008*control
+
+topic #46 (0.020): 
+0.009*end +
+0.007*assembly +
+0.007*support +
+0.006*position +
+0.006*invention +
+0.006*arm +
+0.006*plate +
+0.005*means +
+0.005*mounted +
+0.005*shown
+
+topic #47 (0.020): 
+0.015*acid +
+0.011*reaction +
+0.010*g +
+0.009*example +
+0.009*c +
+0.009*mixture +
+0.009*group +
+0.008*solution +
+0.007*compound +
+0.006*1
+
+topic #48 (0.020): 
+0.031*light +
+0.028*optical +
+0.014*laser +
+0.013*fiber +
+0.009*beam +
+0.007*invention +
+0.006*radiation +
+0.006*wavelength +
+0.006*source +
+0.005*one
+
+topic #49 (0.020): 
+0.008*200 +
+0.007*210 +
+0.006*202 +
+0.006*100 +
+0.006*first +
+0.006*220 +
+0.006*300 +
+0.005*through +
+0.005*second +
+0.005*204
