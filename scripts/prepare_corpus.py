@@ -5,7 +5,11 @@ from os.path import isfile, join
 import glob
 from collections import defaultdict
 from pprint import pprint
-import re
+import re, string
+from nltk.stem import *
+from nltk.stem.porter import *
+# -*- coding: utf-8 -*-
+
 # export DYLD_FALLBACK_LIBRARY_PATH=$HOME/anaconda/lib/:$DYLD_FALLBACK_LIBRARY_PATH
 
 def print_newline():
@@ -19,16 +23,10 @@ import xml.etree.ElementTree as ET
 def xml_to_text(xml):
     body = xml[0] # extract tuple
     body_no_xml = re.sub('<[^>]*>', '', body)
-
     return body_no_xml
 
-    # try:
-    #     tree = ET.fromstring(body)
-    #     body_no_xml = ET.tostring(tree, encoding='utf8', method='text')
-    #     print 'no error'
-    #     return body_no_xml
-
 def pg_query():
+
     conn_string = "host=localhost port=5432 dbname=rpx user=kljensen"
     # print the connection string we will use to connect
     print "Connecting to database\n ->%s" % (conn_string)
@@ -44,10 +42,7 @@ def pg_query():
     cursor.execute("SELECT description FROM pat_descriptions LIMIT 100000")
 
     # # retrieve the records from the database
-    records = cursor.fetchall()
-
-
-    return [xml_to_text(record) for record in records]
+    return [xml_to_text(record) for record in cursor]
 
 
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
@@ -59,31 +54,17 @@ def load_text():
     return documents
 
 def clean_word(word):
-    puncutation = [',', '.']
-    if any(punc == word[-1] for punc in puncutation):
-        return word[:len(word)-1]
+    table = string.maketrans("","")
+    word = word.translate(table, string.punctuation) # remove punctuation
+    word =  re.sub(r'[^\x00-\x7f]',r'', word)  # remove non Ascii
     return word
 
 def apply_stoplist(word):
     # remove common words and tokenize
     stoplist_string = """ 
         for [ ] a of the 
-        by and to in is an be with or at can 
-        that are than each
-        from as about
-        which with on from after was when
-        were this such
-        may
-        it
-        me
-        if
-        not
-        fig. 
-        has no
-        into any
-        these
-        one
-        other
+        by and to in is an be with or at can that are than each from as about which with on 
+        from after was when were this such may it me if not fig. has no into any these one other
         will then use
         """ 
 
@@ -91,13 +72,9 @@ def apply_stoplist(word):
 
     if(word in stoplist):
         return False
-    stop_chars = ['&', '=', ';', '(', ')']
-    if any(stop_char in word for stop_char in stop_chars):
-        return False
     if(word.isdigit()):
         return False
     return True 
-
 
 # Remove common words (using a stoplist)
 # as well as words that only appear once in the corpus:
@@ -109,7 +86,10 @@ def tokenize(documents):
     for i in range(0, len(documents)):
         print 'doc #', i
         document = documents[i]
-        texts.append([clean_word(word) for word in document.lower().split() if apply_stoplist(word)])
+        words = [clean_word(word) for word in document.lower().split() if apply_stoplist(word)]
+        stemmer = PorterStemmer()
+        words_stemmed = [stemmer.stem(word) for word in words]
+        texts.append(words_stemmed)
 
     print 'remove unique words'
     # remove words that appear only once
@@ -139,6 +119,7 @@ def create_corpus(texts, dictionary, build_path):
 def run(build_path):
     print 'loading docs'
     documents = load_text()
+
     print 'tokenizing'
     
     texts = tokenize(documents)
